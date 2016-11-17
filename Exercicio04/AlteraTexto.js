@@ -1,4 +1,5 @@
 
-function alteraTexto(){
-     document.getElementsByName("input01").style.value = ;
+function colocaTudoEmMaiusculo(){
+    let teste = document.getElementById("input01").value;
+    document.getElementById("input01").value = teste.toUpperCase();
 } 
