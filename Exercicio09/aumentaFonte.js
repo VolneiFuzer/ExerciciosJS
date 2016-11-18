@@ -1,5 +1,5 @@
 
-document.getElementById('div01').setAttribute(fontSize, '25pt');
+document.getElementById('div01').style.fontSize =  '25pt';
 
 function aumentaFonte(){
     let tamanho = document.getElementById('div01').style.fontSize;
