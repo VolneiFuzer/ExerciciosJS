@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 14</title>
+</head>
+<body>
+    <h1>Exercício 14</h1>
+        <h3>Faça um script que verifica se um formulário com três campos (um campo de texto, um grupo de radio com três 
+            opções e um checkbox) está completamente preenchido, se estiver submete os dados (pode ser para página não existente), 
+            caso contrário, cria mensagem de erro junto ao(s) campo(s) que necessita(m) ser preenchido(s)</h3>
+    <script src="validaPreenchimento.js"></script>
+    <form action="" method="GET">
+            Texto: <input type ="text" id="texto01"><div id = "div01"></div><br/>
+            Opção 1 <input type="radio" name="radio01" id="ra"> 
+            Opção 2 <input type="radio" name="radio01" id="rb">
+            Opção 3 <input type="radio" name="radio01" id="rc"><div id = "div02"></div>
+            <br/>
+            Para marcar <input type="checkbox" id = "checkbox01"><div id = "div03"></div>
+            <br/>
+            <input type="submit" onclick="validaPreenchimento()">&nbsp;<input type="reset">
+        </form>
+    </br>   
+</body>
+<footer>
+    <hr><h6>Feito por Volnei Fuzer</h6>
+</footer>
+</html>
