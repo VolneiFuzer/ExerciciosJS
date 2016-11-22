@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Minha primeira página</title>
+</head>
+<body>
+	
+	<h1>Tags HTML</h1>
+	<a href="Exemplo HTML.html#link_ancora">Links âncora</a>
+	<h2>Formatação</h2>
+	<h3>Título</h3>
+	<p>As tags &lt;hx&gt; são utilizadas para definir títulos 
+		em níveis (no máximo 6)</p>
+	<h3>Parágrafos</h3>
+	<p>Representados pela tag &lt;p&gt;</p>
+	<h3>Quebras de linha</h3>
+	<p>Indicadas 
+		
+		
+		pela <br>tag&lt;br&gt;</p>
+	<h3>Comentários</h3>
+	<p>Delimitados pelas tags &lt;!-- e --&gt;
+		<!-- como este comentario aqui!   -->
+	</p>
+	<h3>Espaços em branco</h3>
+	<p>Utiliza-se a                          entidade 
+		&nbsp;&nbsp;&nbsp;&nbsp;&amp;nbsp;</p>
+
+	<h3>Negrito</h3>
+	<p>Utiliza-se a tag &lt;strong&gt; para deixar 
+		<strong> negrito </strong></p>
+	<h3>Itálico</h3>
+	<p>Para deixar o texto em <em>it&aacute;lico </em> 
+		utiliza-se a tag &lt;em&gt;</p>
+	<h3>Sublinhado</h3>
+	<p>Para que o texto fique <u>sublinhado</u>, utiliza-se 
+		a tag &lt;u&gt;</p>
+	<h3>Texto pré formatado</h3>
+	<p>Utiliza-se a tag &lt;pre&gt; quando o espaço ocupado 
+		por cada letra deve ser o mesmo. Ex:
+		<pre>
+			int main (string [] args)
+			{	cout &lt;&lt; "olá mundo";
+			}
+		</pre>			
+	</p>
+	
+	<h2>Links</h2>
+	<h3>Alvo</h3>
+	<p>Define <a href="http://cesed.br">hyperlink</a> 
+		para outra página<br>	
+		Podendo <a href="http://cesed.br" target="_blank">
+		abrir em outra aba</a>
+	</p>
+	<h3>Âncora</h3>
+	<a name="link_ancora">Link que define destino dentro de 
+		página</a>
+	
+	<h2>Tabelas</h2>
+	<p>Tag que permite apresentação de forma tabular em 
+		conjunto com outras</p>
+	<table border="solid 1px">
+		<tr>
+			<th>Tag</th>
+			<th>Função</th>
+		</tr>
+		<tr>
+			<td>&lt;table&gt;</td>
+			<td>Define uma tabela</td>
+		</tr>
+		<tr>
+			<td>&lt;tr&gt;</td>
+			<td>Inicia uma linha</td>
+		</tr>
+		<tr>
+			<td>&lt;th&gt;</td>
+			<td>Define rótulo da linha ou coluna</td>
+		</tr>
+		<tr>
+			<td>&lt;td&gt;</td>
+			<td>Indica uma célula de dados</td>
+		</tr>
+	</table>
+
+	<h2>Listas</h2>
+	<h3>Não ordenadas</h3>
+	<p>Define lista não numerada com as tags:</p>
+	<ul>	
+		<li>&lt;ul&gt;:lista não numerada</li>
+		<li>&lt;li&gt;:item da lista</li>
+	</ul>
+
+	<h2>Listas</h2>
+	<h3>Ordenadas</h3>
+	<p>Define lista numerada com as tags:</p>
+	<ol type="a">	
+		<li>&lt;ol&gt;:lista numerada</li>
+		<li>&lt;li&gt;:item da lista</li>
+	</ol>
+	
+	<h2>Formulários</h2>
+	<p>Permitem que usuário preecham campos com dados a serem processados</p>
+	<form action="minha_pagina.php" method="GET">
+		Texto: <input type="text" name="texto"><br/>
+		Senha: <input type="password"><br/>
+		Escolha A<input type="checkbox"> 
+			e Escolha B <input type="checkbox"><br/>
+		Escolha X <input type="radio" name="prop"> 
+			ou escolha Y <input type="radio" name="prop"><br/>	
+		Texto: 
+		<textarea id="" cols="30" rows="10">Texto...</textarea><br/>
+		Escolha uma opção
+		<select name="" id="">
+			<option value="">Java</option>
+			<option value="">PHP</option>
+			<option value="" selected>Node</option>
+
+		</select><br />			
+		<input type="submit"><input type="reset">
+	</form>
+	
+	<h2>Imagens</h2>
+	<p>Utiliza a tag &lt;img&gt;</p>
+	<img 
+		 src="http://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+	
+	<h2>Div</h2>
+	<p>Permite criar uma área, normalmente horizontal, 
+		para aplicação de estilos.
+		<div style ="border:solid;">
+			Como esta aqui.
+		</div>		
+	</p>
+	<h2>Span</h2>
+	<p>Permite selecionar um trecho de uma linha para 
+		aplicação de estilos. Como este 
+		<span style="border:solid;">trecho aqui</span>
+	</p>
+
+</body>
+</html>

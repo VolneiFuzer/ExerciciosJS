@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Ingresso</title>
+</head>
+<body>
+    <h1>Cadastro de aluno</h1>
+    <fieldset>
+        <legend>Forma de ingresso</legend>
+        <form action="formularioIngresso" method="GET">
+            Via: 
+                <input type="radio" name="formaIngresso"> Vestibular
+                <input type="radio" name="formaIngresso"> Transferência
+                <input type="radio" name="formaIngresso"> Mudança de curso
+            <br/><br/>
+            Ano de conclusão do ensino médio: <input type="number" name="AnoDeConclusao">
+            <br/><br/>
+            <input type="submit" value="Anterior">
+            <input type="submit" value="Próximo">
+        </form>
+    </fieldset>
+</body>
+</html>
