@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>userFormPostAJAXNode</title>
+    <script src="userFormPostAJAXNode.js"></script>
+</head>
+<body>
+    <h1>Cadastro de pessoas</h1>
+    <form method="POST">
+        First Name: <input id="first_name" type="text" name="first_name">  <br><br>
+        Last Name: <input id="last_name" type="text" name="last_name"> <br><br>
+        <input type="submit" value="Submit" onclick="cadastraPessoa(event)">
+    </form>
+    <h1>Lista de pessoas</h1>
+    <ul id="listaPessoas">  
+    </ul>
+</body>
+</html>
